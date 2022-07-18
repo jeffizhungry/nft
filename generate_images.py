@@ -164,8 +164,7 @@ if __name__ == "__main__":
     # count_traits(all_images)
 
     # Generate Images
-    if not os.path.exists(OUTPUT_PATH):
-        os.mkdir(OUTPUT_PATH)
+    os.makedirs(OUTPUT_PATH, exist_ok=True)
 
     for item in all_images:
 
