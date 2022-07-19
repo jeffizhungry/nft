@@ -12,6 +12,9 @@ import os
 TOTAL_IMAGES = 100
 
 OUTPUT_PATH = "./images"
+METADATA_PATH = "./metadata"
+METADATA_FILE_NAME = METADATA_PATH + '/all-traits.json'
+
 
 # -------------------------------------
 # Define traits and the chance that they will occur
@@ -186,3 +189,9 @@ if __name__ == "__main__":
         rgb_im = com5.convert('RGB')
         file_name = str(item["tokenId"]) + ".png"
         rgb_im.save(OUTPUT_PATH + "/" + file_name)
+
+    # Generate Metadata
+    os.makedirs(METADATA_PATH, exist_ok=True)
+
+    with open(METADATA_FILE_NAME, 'w') as outfile:
+        json.dump(all_images, outfile, indent=4)
