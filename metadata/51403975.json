@@ -1,0 +1,31 @@
+{
+    "image": "https://gateway.pinata.cloud/ipfs/QmRVpBZDAin34Hwztw5xwRvyFTwctB5h7QpQHGEaKfNnHq/51403975.png",
+    "tokenId": 51403975,
+    "name": "NFTPrintingPress 51403975",
+    "attributes": [
+        {
+            "trait_type": "Face",
+            "value": "Black"
+        },
+        {
+            "trait_type": "Ears",
+            "value": "Left Earring"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Regular"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "Bald"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Big Smile"
+        },
+        {
+            "trait_type": "Nose",
+            "value": "Nose"
+        }
+    ]
+}
